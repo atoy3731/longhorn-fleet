@@ -16,4 +16,4 @@ targetCustomizations:
         - inference-values.yaml
     clusterSelector:
       matchLabels:
-        type: inference
+        inference: enabled
