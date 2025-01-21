@@ -8,3 +8,12 @@ helm:
   chart: longhorn
   version: 1.7.2
   releaseName: longhorn
+
+targetCustomizations:
+  - name: edge-inference
+    helm: 
+      valuesFiles:
+        - inference-values.yaml
+    clusterSelector:
+      matchLabels:
+        type: inference

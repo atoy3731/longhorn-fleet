@@ -1,0 +1,3 @@
+defaultSettings:
+  defaultDataPath: /opt/storage
+  defaultReplicaCount: 2
